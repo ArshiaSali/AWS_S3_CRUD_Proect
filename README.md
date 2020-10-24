@@ -4,15 +4,12 @@ Implemented as a part of the Course Cloud Technologies(CMPE 281) for Masters in 
 
 ## Contents
 - Project Abstract
-- Snapshots from Demonstration
 - AWS Configurations and Pre-requisite Setup
 - Steps to reproduce the project in Local
 
 ## Project Abstract
 
 A scalable and highly available Cloud based Project implemented in Spring Boot and React for performing CRUD Operations in AWS S3 bucket. Users can sign up themselves and login. They can **Upload Files to S3, Download Files from S3, Update/Edit Files, Delete files from S3.** Admin can login to the application to see all the files uploaded by the users, and perform operation on them. During file upload, metadata entered by the user is stored in RDS (MySQL Instance). During file read, the data is fetched from database and shown in the UI. 
-
-## Snapshots from Demonstration
 
 ## AWS Configurations and Pre-requisite Setup
 
